@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+body {
+  font-family: Nanum Gothic;
+  margin: 0;
+}
+
+body .all_site {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+body .all_site header {
+  justify-content: center;
+  display: flex;
+  flex: 0 1 400px;
+  order: 2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://s3.castbox.fm/webstatic/images/banner.5037f4ce.jpg);
+  background-position: 40% 20%;
+}
+
+body .all_site header .content_of_header {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 55%;
+}
+
+body .all_site header .content_of_header .header_text {
+  display: flex;
+  flex: 0 1 50%;
+}
+
+body .all_site header .content_of_header .header_text p {
+  color: white;
+  font-size: 28px;
+  align-self: flex-end;
+}
+
+body .all_site header .content_of_header .header_botons {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 30%;
+  width: 22%;
+  justify-content: flex-start;
+  margin-bottom: 8%;
+}
+
+body .all_site header .content_of_header .header_botons .enter {
+  margin-bottom: 8%;
+  text-align: center;
+  border-radius: 35px;
+  background-color: #FF4900;
+  height: 50%;
+}
+
+body .all_site header .content_of_header .header_botons .enter a {
+  display: block;
+  font-size: 16px;
+  padding: 8%;
+  color: white;
+  text-decoration: none;
+}
+
+body .all_site header .content_of_header .header_botons .apply {
+  text-align: center;
+  border-radius: 35px;
+  background-color: #FF4900;
+  height: 50%;
+}
+
+body .all_site header .content_of_header .header_botons .apply a {
+  display: block;
+  font-size: 16px;
+  padding: 8%;
+  color: white;
+  text-decoration: none;
+}
+
+body .all_site nav {
+  height: 80px;
+  justify-content: center;
+  display: flex;
+  flex: 0 1 auto;
+  order: 1;
+  background-color: #061f33;
+}
+
+body .all_site nav .navigation_panel {
+  margin-left: 1.5%;
+  align-items: stretch;
+  display: flex;
+  flex: 0 1 60%;
+  height: 100%;
+}
+
+body .all_site nav .navigation_panel .logo {
+  margin-right: 1%;
+  margin-top: 1.5%;
+  flex: 0 1 10%;
+}
+
+body .all_site nav .navigation_panel .logo .picture_of_logo img {
+  width: 110%;
+  height: 110%;
+}
+
+body .all_site nav .navigation_panel .links {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1.5%;
+  justify-content: space-between;
+  display: flex;
+  flex: 0 1 60%;
+  align-items: stretch;
+}
+
+body .all_site nav .navigation_panel .links a {
+  font-size: 90%;
+  text-decoration: none;
+  color: white;
+}
+
+body .all_site nav .navigation_panel .links a:hover {
+  color: #FF4900;
+}
+
+body .all_site nav .navigation_panel .sing_in {
+  margin-left: auto;
+  align-self: flex-end;
+  height: 100%;
+  display: flex;
+  flex: 0 1 20%;
+}
+
+body .all_site nav .navigation_panel .sing_in .sing_in_content {
+  margin: auto;
+}
+
+body .all_site nav .navigation_panel .sing_in .sing_in_content img {
+  margin: 22% 0 0 100%;
+  height: 100%;
+  width: 100%;
+}
+
+body .all_site nav .navigation_panel .sing_in a {
+  text-decoration: none;
+  display: block;
+  margin-top: 18%;
+  font-size: 90%;
+  color: white;
+}
+
+body .all_site nav .navigation_panel .sing_in a:hover {
+  color: #FF4900;
+}
+
+body .all_site main {
+  display: flex;
+  flex: 1 1 auto;
+  order: 3;
+  justify-content: center;
+}
+
+body .all_site main .content_of_main {
+  flex: 0 1 60%;
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+}
+
+body .all_site main .content_of_main .block_1 {
+  display: flex;
+  flex-direction: row;
+  height: 380px;
+}
+
+body .all_site main .content_of_main .block_1 .block_1_text {
+  padding-top: 9%;
+  width: 41%;
+  height: 100%;
+  padding-left: 9%;
+  opacity: .7;
+}
+
+body .all_site main .content_of_main .block_1 .block_1_text h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+body .all_site main .content_of_main .block_1 .block_1_text p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+body .all_site main .content_of_main .block_1 .block_1_text a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #FF4900;
+  line-height: 4;
+}
+
+body .all_site main .content_of_main .block_1 .block_1_picture {
+  width: 50%;
+  height: 100%;
+  background-image: url(https://s3.castbox.fm/webstatic/images/pic-1-40.11f80c44.jpg);
+  background-size: 100% 100%;
+}
+
+body .all_site main .content_of_main .block_2 {
+  display: flex;
+  height: 380px;
+}
+
+body .all_site main .content_of_main .block_2 .block_2_text {
+  padding-top: 9%;
+  width: 41%;
+  height: 100%;
+  padding-left: 9%;
+  opacity: .7;
+}
+
+body .all_site main .content_of_main .block_2 .block_2_text h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+body .all_site main .content_of_main .block_2 .block_2_text p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+body .all_site main .content_of_main .block_2 .block_2_text a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #FF4900;
+  line-height: 4;
+}
+
+body .all_site main .content_of_main .block_2 .block_2_picture {
+  width: 50%;
+  height: 100%;
+  background-image: url(https://s3.castbox.fm/webstatic/images/pic-2-40.36ddf031.jpg);
+  background-size: 100% 100%;
+}
+
+body .all_site main .content_of_main .block_3 {
+  display: flex;
+  height: 380px;
+}
+
+body .all_site main .content_of_main .block_3 .block_3_text {
+  padding-top: 9%;
+  width: 41%;
+  height: 100%;
+  padding-left: 9%;
+  opacity: .7;
+}
+
+body .all_site main .content_of_main .block_3 .block_3_text h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+body .all_site main .content_of_main .block_3 .block_3_text p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+body .all_site main .content_of_main .block_3 .block_3_picture {
+  width: 50%;
+  height: 100%;
+  background-image: url(https://s3.castbox.fm/webstatic/images/pic-3-40.46e51a6c.jpg);
+  background-size: 100% 100%;
+}
+
+body .all_site main .content_of_main .block_4 {
+  display: flex;
+  height: 380px;
+}
+
+body .all_site main .content_of_main .block_4 .block_4_text {
+  padding-top: 9%;
+  width: 41%;
+  height: 100%;
+  padding-left: 9%;
+  opacity: .7;
+}
+
+body .all_site main .content_of_main .block_4 .block_4_text h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+body .all_site main .content_of_main .block_4 .block_4_text p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+body .all_site main .content_of_main .block_4 .block_4_text a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #FF4900;
+}
+
+body .all_site main .content_of_main .block_4 .block_4_picture {
+  width: 50%;
+  height: 100%;
+  background-image: url(https://s3.castbox.fm/webstatic/images/pic-4-40.7b62f5d0.jpg);
+  background-size: 100% 100%;
+}
+
+body .all_site footer {
+  display: flex;
+  justify-content: center;
+  flex: 0 1 350px;
+  order: 4;
+  background-color: #061f33;
+}
+
+body .all_site footer .content_of_footer {
+  width: 60%;
+  height: 100%;
+  flex: 0 1 60%;
+  display: flex;
+}
+
+body .all_site footer .content_of_footer .footer_information {
+  width: 65%;
+}
+
+body .all_site footer .content_of_footer .footer_information .footer_logo img {
+  margin-top: 5%;
+  width: 20%;
+  height: 20%;
+}
+
+body .all_site footer .content_of_footer .footer_information .footer_information_text p {
+  color: white;
+  font-size: 14px;
+  margin-top: 3%;
+  line-height: 200%;
+}
+
+body .all_site footer .content_of_footer .footer_information .download_icons {
+  width: 60%;
+}
+
+body .all_site footer .content_of_footer .footer_information .download_icons img {
+  width: 25%;
+  height: 25%;
+}
+
+body .all_site footer .content_of_footer .footer_information .politics {
+  color: white;
+  font-size: 13px;
+  margin-top: 10%;
+}
+
+body .all_site footer .content_of_footer .footer_information .politics a {
+  text-decoration: none;
+  color: white;
+}
+
+body .all_site footer .content_of_footer .about {
+  margin-left: 2%;
+  width: 10%;
+  color: white;
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+body .all_site footer .content_of_footer .about a {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+body .all_site footer .content_of_footer .connection {
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 25%;
+  font-size: 16px;
+  color: white;
+}
+
+body .all_site footer .content_of_footer .connection img {
+  margin: 2%;
+}
+
+body .all_site footer .content_of_footer .connection a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
